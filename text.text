@@ -1,0 +1,54 @@
+###///
+#import openai 
+#import config
+
+#openai.api_key = config.api
+
+#contexto para el asistente
+#messages = [{"role" : "system", 
+#             "content" : "Eres un asistente muy util"
+#}]
+
+#funcionamiento del chat
+#while True:
+#    content = input("Sobre que quieres hablar?")
+    
+    #if content == "exit" or "cerrar":
+        #break
+    
+#    messages.append({"role" : "user", "content" : content}) 
+        
+#    response = openai.ChatCompletion.create(model= "gpt-3.5-turbo",messages = messages)
+    
+#    response_conten = response.choises[0].message.content
+    
+#   messages.append({"role" : "assistant", "content" : response_conten})
+
+#    print(response_conten)
+    
+#/// 
+ 
+#import openai 
+#import config
+
+#openai.api_key = config.api
+
+# Contexto para el asistente
+#messages = [{"role": "system", "content": "Eres un asistente muy útil"}]
+
+# Funcionamiento del chat
+#while True:
+#    content = input("Sobre qué quieres hablar? ")
+
+#    if content == "exit" or content == "cerrar":
+#        break
+    
+#    messages.append({"role": "user", "content": content})
+        
+#    response = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=messages)
+    
+#    response_conten = response.choices[0].message['content']
+    
+#    messages.append({"role": "assistant", "content": response_conten})
+
+#    print(response_conten)
